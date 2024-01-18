@@ -4,7 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 1440px;
+    width: 100%;
     font-family: Hanken Grotesk;    
 }
 
@@ -235,9 +235,10 @@ body{
     .summary-component{
        display: flex;
        flex-direction: column;
-       width: 350px;
+       justify-content: center;
+       width: 50%;
        height: 100vh;
-       margin-top: 100px;
+       margin-top: 500px;
     }
 
     
@@ -245,6 +246,6 @@ body{
     .summary{
       box-shadow: 5px 20px 40px hsl(0, 2%, 80%);
       border-radius: 0px;
-      padding-bottom: 5px;
+      padding-bottom: 20px;
    }
 }
